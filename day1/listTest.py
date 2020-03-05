@@ -34,3 +34,26 @@ l.pop()
 print(l)
 # [1, '新来的', 100, 4, 5, 9, 11]
 
+# 删除指定的项目，不是项目位置 (从前往后，只删一个)
+l.remove("新来的")
+print(l)
+# [1, 100, 4, 5, 9, 11]
+
+# 倒序排序
+l.reverse()
+print(l)
+# [11, 9, 5, 4, 100, 1]
+
+# 降序排序
+l.sort(reverse=True)
+print(l)
+#[1, 100, 4, 5, 9, 11]
+
+# 升序排序
+l.sort(reverse=False)
+print(l)
+# [1, 4, 5, 9, 11, 100]
+
+print(max(l))
+print(min(l))
+print(len(l))

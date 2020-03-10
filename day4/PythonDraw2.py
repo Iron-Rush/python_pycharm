@@ -1,4 +1,8 @@
 import turtle
+#
+# for i in range(1,10,2):
+#     print(i)
+
 turtle.pensize(4)
 # 画圆
 turtle.circle(15)
@@ -10,3 +14,4 @@ for i in range(5):
     turtle.fd(200)
     turtle.rt(144)
 turtle.end_fill()
+turtle.done()

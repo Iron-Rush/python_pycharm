@@ -1,0 +1,5 @@
+# TestRandom.py
+import random
+random.seed(1)
+print(random.random())
+print(random.random())

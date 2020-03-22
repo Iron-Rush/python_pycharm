@@ -1,5 +1,6 @@
 # TestOS.py
 import os.path
+# OS学习
 print(os.path.abspath("PredictTheGame.py"))
 print(os.path.normpath("PredictTheGame.py"))
 pathA= os.path.abspath("PredictTheGame.py")
